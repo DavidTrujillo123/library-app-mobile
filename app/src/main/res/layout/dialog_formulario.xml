@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Campo para ID -->
+    <EditText
+        android:id="@+id/lb_input_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID"
+        android:inputType="number" />
+
+    <!-- Campo para Título -->
+    <EditText
+        android:id="@+id/lb_input_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Título"
+        android:inputType="text" />
+
+    <!-- Campo para ID del Autor -->
+    <EditText
+        android:id="@+id/lb_input_idAutor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ID Autor"
+        android:inputType="number" />
+
+    <!-- Campo para ISBN -->
+    <EditText
+        android:id="@+id/lb_input_isbn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ISBN"
+        android:inputType="text" />
+
+    <!-- Campo para Año de Publicación -->
+    <EditText
+        android:id="@+id/lb_input_anioPublicacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Año de Publicación"
+        android:inputType="number" />
+
+    <!-- Campo para Revisión -->
+    <EditText
+        android:id="@+id/lb_input_revision"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Revisión"
+        android:inputType="number" />
+
+    <!-- Campo para Número de Hojas -->
+    <EditText
+        android:id="@+id/lb_input_nroHojas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Número de Hojas"
+        android:inputType="number" />
+
+</LinearLayout>

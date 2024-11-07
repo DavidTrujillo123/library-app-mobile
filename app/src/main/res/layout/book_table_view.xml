@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="3"
+    android:padding="16dp"
+    android:layout_row="7">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID Book:"
+        android:padding="4dp"
+        android:layout_column="0"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/id_book"
+        android:padding="4dp"
+        android:text="1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title:"
+        android:padding="4dp"
+        android:layout_column="0"/>
+
+    <TextView
+        android:layout_width="100sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/title_book"
+        android:padding="4dp"
+        android:text="Example Title"
+        android:layout_column="1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ISBN:"
+        android:padding="4dp"
+        android:layout_column="0"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/isbn"
+        android:padding="4dp"
+        android:text="000"
+        android:layout_column="1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Year Publication:"
+        android:padding="4dp"
+        android:layout_column="0"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/year_publication"
+        android:padding="4dp"
+        android:text="2013"
+        android:layout_column="1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Review:"
+        android:padding="4dp"
+        android:layout_column="0"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/review"
+        android:padding="4dp"
+        android:text="2023"
+        android:layout_column="1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Number of Sheets:"
+        android:padding="4dp"
+        android:layout_column="0"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/number_of_sheets"
+        android:padding="4dp"
+        android:text="101"
+        android:layout_column="1"/>
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_height="wrap_content"
+        android:layout_row="0"
+        android:layout_column="2"
+        android:layout_margin="4dp"
+        android:layout_weight="1"
+        android:text="Actualizar" />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Eliminar"
+        android:layout_margin="4dp"
+        android:id="@+id/btn_delete"
+        android:layout_column="2"/>
+</GridLayout>
