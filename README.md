@@ -7,4 +7,4 @@ This app try about management of authors and books using SQLite database.
 - CRUD Book authors
 
 ## View
-![Example of Library app](example-library.mp4)
+![Example of Library app](example-library.gif)
